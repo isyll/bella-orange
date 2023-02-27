@@ -1,0 +1,26 @@
+
+@import url("mobile.css") screen and (max-width:991px);
+@import url("desktop.css") screen and (min-width: 991px);
+
+:root {
+    --primary: #ff4c0c;
+    --light-grey: rgb(133, 133, 133);
+    --hauteur-photo: 549px;
+    --font-sz-titre : 150%;
+    --font-sous-titre : 200%;
+    --color-text: rgb(163, 162, 162);
+    --taille-food-app : 200%;
+    --taille-text-dessous : 300%;
+    --largeur-img : 200px;
+    --largeur-texte-header: 700px;
+    --gap-text-header: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
