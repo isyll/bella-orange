@@ -3,6 +3,7 @@
 #include<string.h>
 
 #include "color.h"
+#include "file.h"
 
 int nbc = 10;
 Color colors[] = {
@@ -43,6 +44,7 @@ int main(void)
 Choisissez-en un valide!\n");
                 continue;
             }
+            changeColor("--varname", "#ffffff");
         }
         else
         {
@@ -52,6 +54,7 @@ Choisissez-en un valide!\n");
 Choisissez-en une valide!\n");
                 continue;
             }
+            changeColor("--varname", "#ffffff");
         }
     } while (1);
 
